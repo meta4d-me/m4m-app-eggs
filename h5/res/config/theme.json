@@ -1,0 +1,104 @@
+{
+    "themes": [
+
+        {
+            "id": 0,
+            "name": "默认",
+            "image1": "white.png",
+            "image2": "gray.png",
+            "cubeImage": "box006.png",
+            "deblocking": "1:0",
+            "color": "",
+            "hRange": [0,360],
+            "sFactor": 50,
+            "vFactor": 91,
+            "icon": "shop_pic_pifu1.png",
+            "isDynamicColor": true
+        },
+        {
+            "id": 1,
+            "name": "蓝色荧光",
+            "image1": "blue-fluorescence01.png",
+            "image2": "blue-fluorescence02.png",
+            "cubeImage": "box003.png",
+            "deblocking": "1:500",
+            "color": "ffffff",
+            "hRange": [200,225],
+            "sFactor": 60,
+            "vFactor": 50,
+            "icon":"shop_pic_pifu2.png",
+            "isDynamicColor": false
+        },
+        {
+            "id": 2,
+            "name": "绚烂霓虹",
+            "image1": "DropSumColours01.png",
+            "image2": "DropSumColours02.png",
+            "cubeImage": "box002.png",
+            "deblocking": "1:1000",
+            "color": "c3b1ed",
+            "hRange": [230,290],
+            "sFactor": 25,
+            "vFactor": 100,
+            "icon":"shop_pic_pifu3.png",
+            "isDynamicColor": false
+        }
+        ,
+
+        {
+            "id": 3,
+            "name": "F1方程式",
+            "image1": "track01.png",
+            "image2": "track02.png",
+            "cubeImage": "box004.png",
+            "deblocking": "1:1500",
+            "color": "a7b2bf",
+            "hRange": [193,220],
+            "sFactor": 50,
+            "vFactor": 91,
+            "icon":"shop_pic_pifu5.png",
+            "isDynamicColor": false
+        },
+        {
+            "id": 4,
+            "name": "海岛沙滩",
+            "image1": "Beach01.png",
+            "image2": "Beach02.png",
+            "cubeImage": "box005.png",
+            "deblocking": "1:1500",
+            "color": "cec28c",
+            "hRange": [148,192],
+            "sFactor": 40,
+            "vFactor": 100,
+            "icon":"shop_pic_pifu4.png",
+            "isDynamicColor": false
+        },{
+            "id": 5,
+            "name": "中国新年",
+            "image1": "ChinesenNew_Year01.png",
+            "image2": "ChinesenNew_Year02.png",
+            "cubeImage": "box001.png",
+            "deblocking": "3:588",
+            "color": "eba6b9",
+            "hRange": [0,27],
+            "sFactor": 60,
+            "vFactor": 100,
+            "icon": "shop_pic_pifu6.png",
+            "isDynamicColor": false
+        },
+        {
+            "id": 6,
+            "name": "测试草地",
+            "image1": "meadow01.png",
+            "image2": "meadow02.png",
+            "cubeImage": "box006.png",
+            "deblocking": "1:0",
+            "color": "",
+            "hRange": [0,360],
+            "sFactor": 50,
+            "vFactor": 91,
+            "icon": "shop_pic_pifu1.png",
+            "isDynamicColor": true
+        }
+    ]
+}

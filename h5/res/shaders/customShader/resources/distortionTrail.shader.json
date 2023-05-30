@@ -1,0 +1,30 @@
+{
+    "layer": "transparent",
+    "queue": 0,
+    "properties": [
+        "_MainTex('MainTex',Texture)='white'{}",
+        "_MainTex_ST('MainTex_ST',Vector) = (1,1,0,0)",
+        "_MainColor ('MainColor', Color) = (1,1,1,1)",
+        "OFFSET ('OFFSET', Vector) = (0,0,0,0)"
+    ],
+    "passes": {
+        "base": [
+            {
+                "blendmode": "blend",
+                "showface": "all",
+                "zwrite": "off",
+                "vs": "distortion",
+                "fs": "distortionTrail"
+            }
+        ],
+		"base_fog": [
+            {
+                "blendmode": "blend",
+                "showface": "all",
+                "zwrite": "off",
+                "vs": "distortion",
+                "fs": "distortionTrail"
+            }
+        ]
+    }
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html style="height: 100%;">
+
+<head>
+    <title>
+    </title>
+    <meta charset="utf-8" />
+    <!-- <meta http-equiv="Cache-control" content="no-cache"> -->
+    <meta name="viewport"
+        content="width=device-width, height=device-height, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <script src="lib/web3.min.js"></script>
+    <script src="sdk/walletconnect.client.js"></script>
+    <script src="sdk/node_modules/@walletconnect/web3-provider/dist/umd/index.min.js"></script>
+    <script src="sdk/node_modules/@walletconnect/client/dist/umd/index.min.js"></script>
+    <script src="sdk/node_modules/@walletconnect/qrcode-modal/dist/umd/index.min.js"></script>
+    <script src="sdk/node_modules/web3modal/dist/index.js"></script>
+    <script src="sdk/node_modules/web3/dist/web3.min.js"></script>
+    <!-- <script src="sdk/squidgameJssdk.js"></script> -->
+    <script src="sdk/m4m-web3-bundle.umd.js"></script>
+    <script src="sdk/node_modules/axios/dist/axios.min.js"></script>
+    <script src="lib/node_modules/@types/engine.js"></script>
+    <script src="lib/system.src.js"></script>
+    <script src="lib/dat.gui.js"></script>
+    <script src="lib/node_modules/@types/gameMain.js"></script>
+    <script src="lib/node_modules/@types/gameUtil.js"></script>
+    <script src="lib/node_modules/@types/ExcelData.js"></script>
+    <script src="lib/eruda.min.js"></script>
+    <!-- <script>eruda.init();</script> -->
+    <script>
+        window.onload = function () {
+            //引擎初始化创建
+            var u = navigator.userAgent;
+            var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Linux') > -1; //android终端或者uc浏览器
+            var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
+
+            if (isAndroid || isiOS) {
+                var body = document.getElementsByClassName("Classbody");
+                body[0].style.width = "100%";
+                body[0].style.position = "fixed";
+                body[0].style.left = 0;
+            }
+            console.log("window.innerHeight", window.innerHeight);
+            console.log("window.innerWidth", window.innerWidth);
+            //项目启动
+            System.init();
+
+            window.focus();
+        }
+
+    </script>
+
+    <style>
+        * {
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        body {
+            background-color: rgb(255, 255, 255);
+            user-select: none;
+            width: 25%;
+            position: fixed;
+            left: 35%;
+            max-width: 660px;
+        }
+
+        div {
+            margin: 0 auto;
+        }
+    </style>
+
+</head>
+
+<body class="Classbody" style="height:100%;margin:0;padding:0; overflow: hidden; background-color: rgb(255, 255, 255);">
+    <div id="gamecontainer" style="background-color:rgb(255, 255, 255);">
+    </div>
+</body>
+
+</html>

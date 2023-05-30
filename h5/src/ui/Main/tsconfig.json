@@ -1,0 +1,45 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "target": "es5",
+    "module": "system",
+    "outDir": "./dist",
+    "outFile": "../../../lib/node_modules/@types/Main.js",
+    "allowJs": false,
+    "checkJs": false,
+    "removeComments": false,
+    "noEmit": false,
+    "noEmitOnError": false,
+    "sourceMap": true,
+    "strict": false,
+    "alwaysStrict": false,
+    "noImplicitAny": false,
+    "noImplicitThis": false,
+    "strictNullChecks": false,
+    "strictBindCallApply": false,
+    "strictFunctionTypes": false,
+    "strictPropertyInitialization": false,
+    "noFallthroughCasesInSwitch": false,
+    "noImplicitReturns": false,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "skipLibCheck": true,
+    "allowUnreachableCode": false,
+    "types": [
+      "../../../lib/node_modules/@types/engine",
+      "../../../lib/node_modules/@types/gameMain",
+      "../../../lib/node_modules/@types/gameUtil",
+      "../../../lib/node_modules/@types/ExcelData"
+    ],
+    "declarationMap": true,
+    "declaration": true,
+    "lib": [
+      "es2015",
+      "es2015.promise",
+      "dom",
+      "es5",
+      "es2015.iterable",
+      "es2015.core"
+    ]
+  }
+}

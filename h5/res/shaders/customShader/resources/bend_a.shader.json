@@ -1,0 +1,22 @@
+{
+    "layer": "transparent",
+    "queue":  0,
+    "properties": [
+          "_Tex('MainTex',Texture)='white'{}",
+          "_Colr ('Tint Color', Color) = (0.5,0.5,0.5,1.0)"
+      ],
+      "passes": {
+          "base": [
+            {
+              "blendmode": "blend",
+              "showface": "all",
+              "zwrite": "off",
+              "vs": "bend_a",
+              "fs": "bend_a"
+            }
+          ],
+          "shadowgen": [],  
+          "bone": [],
+          "shadowuse": []
+      }
+  }

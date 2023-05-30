@@ -1,0 +1,62 @@
+{
+    "layer": "geometry",
+
+    "properties": [
+        "_MatCapColor('Main Color', Color) = (1.0, 1.0, 1.0, 1.0)",
+        "_MatCap2Color('Main Color 2', Color) = (1.0, 1.0, 1.0, 1.0)",
+        "_MatCap3Color('Main Color 3', Color) = (1.0, 1.0, 1.0, 1.0)",
+        "_Strength('Strength_1', Range(0.0, 10.0)) = 3.0",
+        "_Strength2('Strength_2', Range(0.0, 10.0)) = 3.0",
+        "_Strength3('Strength_3', Range(0.0, 10.0)) = 3.0",
+
+        "_MainTex ('Base (RGB)', Texture) = 'white'{}",
+        "_MainTex_ST('MainTex_ST',Vector) = (1,1,0,0)",
+        "_BumpMap ('Normal Map', Texture) = 'white'{}",			
+        "_MaskTex ('Mask (RGB)', Texture) = 'white'{}",
+
+        "_MatCap ('MatCap (RGB)', Texture) = 'white'{}",
+        "_MatCap2 ('MatCap2 (RGB)', Texture) = 'white'{}",
+        "_MatCap3 ('MatCap3 (RGB)', Texture) = 'white'{}",
+
+        "_FluxayTex ('FluxayTex(流光纹理g)', Texture) = 'white'{}",
+        "_FluxayTex_ST('FluxayTex_ST',Vector) = (1,1,0,0)",
+        "_FluxayColor ('FluxayColor(流光颜色g)', Color) = (1,0,0,1)",
+        "_FluxayTex2('FluxayTex2(流光纹理b)', Texture) = 'white'{}",
+        "_FluxayTex2_ST('FluxayTex2_ST',Vector) = (1,1,0,0)",
+        "_FluxayColor2 ('FluxayColor2(流光颜色b)', Color) = (0.5,0.5,0.5,1)"
+
+
+
+    ],
+    "passes": {
+
+        "base": [
+            {
+                "showface": "ccw",
+                "vs": "body3fluxzy1",
+                "fs": "body3fluxzy1"
+            }
+        ],
+        "base_fog": [
+            {
+                "showface": "ccw",
+                "vs": "body3fluxzy1",
+                "fs": "body3fluxzy1"
+            }
+        ],
+        "skin": [
+            {
+                "showface": "ccw",
+                "vs": "body3fluxzy1",
+                "fs": "body3fluxzy1"
+            }
+        ],
+        "skin_fog": [
+            {
+                "showface": "ccw",
+                "vs": "body3fluxzy1",
+                "fs": "body3fluxzy1"
+            }
+        ]
+    }
+}

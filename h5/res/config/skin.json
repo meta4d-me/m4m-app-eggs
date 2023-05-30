@@ -1,0 +1,222 @@
+{
+    "skinPath": "Resources/skin/textures/",
+    "iconPath": "Resources/skin/icon/",
+    "skins": [
+        {
+            "id": 0,
+            "name": "白",
+            "headPortrait": "white.png",
+            "skinSticker": "",
+            "deblocking": "0:0",
+            "color": "ffffff",
+            "renderType": 0
+        },
+        {
+            "id": 20,
+            "name": "水晶",
+            "headPortrait": "crystal.png",
+            "skinSticker": "crystal.png",
+            "deblocking": "2:100",
+            "color": "ffffff",
+            "renderType": 0
+        },
+        {
+            "id": 15,
+            "name": "瞪眼",
+            "headPortrait": "eye.png",
+            "skinSticker": "Stare.png",
+            "deblocking": "2:100",
+            "color": "ffffff",
+            "renderType": 0
+        },
+        {
+            "id": 10,
+            "name": "祥云",
+            "headPortrait": "cloud.png",
+            "skinSticker": "Auspiciousclouds.png",
+            "deblocking": "2:100",
+            "color": "ffffff",
+            "renderType": 0
+        },
+        {
+            "id": 1,
+            "name": "狗狗",
+            "headPortrait": "doge.png",
+            "skinSticker": "dog.png",
+            "deblocking": "4:5",
+            "color": "ffffff",
+            "renderType": 0
+        },
+        {
+            "id": 4,
+            "name": "咪咪",
+            "headPortrait": "cat.png",
+            "skinSticker": "mimi.png",
+            "deblocking": "4:5",
+            "color": "ffffff",
+            "renderType": 0
+        },
+        {
+            "id": 13,
+            "name": "猪猪",
+            "headPortrait": "pig.png",
+            "skinSticker": "Pinkpig.png",
+            "deblocking": "4:5",
+            "color": "ffffff",
+            "renderType": 0
+        },
+        {
+            "id": 21,
+            "name": "rock",
+            "headPortrait": "rock.png",
+            "skinSticker": "Rock.png",
+            "deblocking": "4:5",
+            "color": "ffffff",
+            "renderType": 0
+        },
+        {
+            "id": 19,
+            "name": "胜利",
+            "headPortrait": "victory.png",
+            "skinSticker": "victory.png",
+            "deblocking": "4:5",
+            "color": "ffffff",
+            "renderType": 0
+        },
+        {
+            "id": 18,
+            "name": "金元宝",
+            "headPortrait": "Goldingot.png",
+            "skinSticker": "Goldingot.png",
+            "deblocking": "4:5",
+            "color": "ffffff",
+            "renderType": 0
+        },
+        {
+            "id": 3,
+            "name": "棒棒糖",
+            "headPortrait": "Lollipop.png",
+            "skinSticker": "Lollipop.png",
+            "deblocking": "1:100",
+            "color": "ffffff",
+            "renderType": 0
+        },
+        {
+            "id": 2,
+            "name": "高尔夫",
+            "headPortrait": "Golf.png",
+            "skinSticker": "Golf.png",
+            "deblocking": "1:100",
+            "color": "ffffff",
+            "renderType": 0
+        },
+        {
+            "id": 12,
+            "name": "章鱼",
+            "headPortrait": "octopus.png",
+            "skinSticker": "octopus.png",
+            "deblocking": "1:100",
+            "color": "ffffff",
+            "renderType": 0
+        },
+        {
+            "id": 14,
+            "name": "蹦迪",
+            "headPortrait": "disco.png",
+            "skinSticker": "Discodancing.png",
+            "deblocking": "1:100",
+            "color": "ffffff",
+            "renderType": 0
+        },
+        {
+            "id": 11,
+            "name": "月亮",
+            "headPortrait": "moon.png",
+            "skinSticker": "Moon.png",
+            "deblocking": "1:100",
+            "color": "ffffff",
+            "renderType": 0
+        },
+        {
+            "id": 5,
+            "name": "猕猴桃",
+            "headPortrait": "Kiwifruit.png",
+            "skinSticker": "Kiwifruit.png",
+            "deblocking": "1:200",
+            "color": "ffffff",
+            "renderType": 0
+        },
+        {
+            "id": 6,
+            "name": "柠檬",
+            "headPortrait": "lemon.png",
+            "skinSticker": "lemon.png",
+            "deblocking": "1:200",
+            "color": "ffffff",
+            "renderType": 0
+        },
+        {
+            "id": 7,
+            "name": "忍者",
+            "headPortrait": "ninja.png",
+            "skinSticker": "ninjia.png",
+            "deblocking": "1:200",
+            "color": "ffffff",
+            "renderType": 0
+        },
+        {
+            "id": 8,
+            "name": "呜啊",
+            "headPortrait": "rua.png",
+            "skinSticker": "haha.png",
+            "deblocking": "1:200",
+            "color": "ffffff",
+            "renderType": 0
+        },
+        {
+            "id": 9,
+            "name": "西瓜",
+            "headPortrait": "watermelon.png",
+            "skinSticker": "watermelon.png",
+            "deblocking": "1:200",
+            "color": "ffffff",
+            "renderType": 0
+        },
+        {
+            "id": 16,
+            "name": "风火轮",
+            "headPortrait": "Windwheel.png",
+            "skinSticker": "Windwheel.png",
+            "deblocking": "1:300",
+            "color": "ffffff",
+            "renderType": 0
+        },
+        {
+            "id": 17,
+            "name": "和平",
+            "headPortrait": "peace.png",
+            "skinSticker": "peace.png",
+            "deblocking": "1:300",
+            "color": "ffffff",
+            "renderType": 0
+        },
+        {
+            "id": 22,
+            "name": "金猪",
+            "headPortrait": "GoldenPig.png",
+            "skinSticker": "goldpig.png",
+            "deblocking": "3:100",
+            "color": "ffffff",
+            "renderType": 0
+        },
+        {
+            "id": 23,
+            "name": "篮球",
+            "headPortrait": "basketball.png",
+            "skinSticker": "basketballSkin.png",
+            "deblocking": "1:0",
+            "color": "ffffff",
+            "renderType": 0
+        }
+    ]
+}

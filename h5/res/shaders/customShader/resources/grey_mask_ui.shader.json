@@ -1,0 +1,20 @@
+{
+    "layer": "transparent",
+    "queue": 100,
+    "properties": [
+        "_MainTex('MainTex',Texture)='white'{}",
+        "_maskRect('MaskRect',Vector) = (1,1,1,1)"
+    ],
+    "passes": {
+        "base": [
+            {
+                "blendmode": "blend",
+                "showface": "all",
+                "ztest":"false",
+				"zwrite":"false",
+                "vs": "grey_mask_ui",
+                "fs": "grey_mask_ui"
+            }
+        ]
+    }
+}

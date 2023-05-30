@@ -1,0 +1,30 @@
+{
+  "layer": "transparent",
+  "queue":  0,
+  "properties": [
+		"_Main_Tex('MainTex',Texture)='white'{}",
+        "_Main_Color ('Tint Color', Color) = (1.0,1.0,1.0,1.0)"
+    ],
+    "passes": {
+        "base": [
+          {
+            "blendmode": "add",
+            "showface": "all",
+            "zwrite": "off",
+            "vs": "f14transDistortion_add",
+            "fs": "f14trans_add"
+          }
+        ],"base_fog": [
+			{
+            "blendmode": "add",
+            "showface": "all",
+            "zwrite": "off",
+            "vs": "f14transDistortion_add",
+            "fs": "f14trans_add"
+          }
+		],
+        "shadowgen": [],  
+        "bone": [],
+        "shadowuse": []
+    }
+}

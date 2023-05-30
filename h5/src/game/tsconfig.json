@@ -1,0 +1,44 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "target": "es5",
+        "module": "system",
+        "outFile": "../../lib/node_modules/@types/gameMain.js",
+        "allowJs": false,
+        "checkJs": false,
+        "removeComments": false,
+        "noEmit": false,
+        "noEmitOnError": false,
+        "sourceMap": false,
+        "strict": false,
+        "declaration": true,
+        "alwaysStrict": false,
+        "noImplicitAny": false,
+        "noImplicitThis": false,
+        "strictNullChecks": false,
+        "strictBindCallApply": false,
+        "strictFunctionTypes": false,
+        "strictPropertyInitialization": false,
+        "noFallthroughCasesInSwitch": false,
+        "noImplicitReturns": false,
+        "noUnusedLocals": false,
+        "noUnusedParameters": false,
+        "skipLibCheck": true,
+        "allowUnreachableCode": false,
+        "forceConsistentCasingInFileNames": true,
+        "moduleResolution":"node",
+        "lib": [
+            "dom",
+            "es2015.promise",
+            "es2015"
+        ],
+        "types": [
+            "../../lib/node_modules/@types/engine",
+            "../../lib/node_modules/@types/ExcelData",
+            "../../lib/node_modules/@types/gameUtil",
+            "../../sdk/node_modules/@walletconnect/web3-provider",
+            "../../sdk/node_modules/web3modal",
+            "../../sdk/node_modules/web3",
+        ]
+    }
+}

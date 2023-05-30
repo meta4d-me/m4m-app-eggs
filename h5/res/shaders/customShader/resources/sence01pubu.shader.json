@@ -1,0 +1,40 @@
+{
+    "layer": "transparent",
+    "properties": [
+        "_RS ('RS', Range(0, 1)) = 0",
+        "_GS ('GS', Range(0, 1)) = 0",
+        "_BS ('BS', Range(0, 1)) = 0",
+        "_RClose ('RClose', Float ) = 0",
+        "_Gclose ('Gclose', Float ) = 0",
+        "_Bclose ('Bclose', Float ) = 0",
+        "_Rcolor ('Rcolor', Color) = (0.5,0.5,0.5,1)",
+        "_Gcolor ('Gcolor', Color) = (0.5,0.5,0.5,1)",
+        "_Bcolor ('Bcolor', Color) = (0.5,0.5,0.5,1)",
+        "_R ('R', Texture) = 'white' {}",
+        "_G ('G', Texture) = 'white' {}",
+        "_B ('B', Texture) = 'white' {}",
+        "_R_ST('_R_ST',Vector) = (1,1,0,0)",
+        "_G_ST('_G_ST',Vector) = (1,1,0,0)",
+        "_B_ST('_B_ST',Vector) = (1,1,0,0)"
+    ],
+    "passes": {
+        "base": [
+            {
+                "blendmode": "blend",
+                "zwrite": "off",
+                "showface": "ccw",
+                "vs": "sence01pubu",
+                "fs": "sence01pubu"
+            }
+        ],
+        "base_fog": [
+            {
+                "blendmode": "blend",
+                "zwrite": "off",
+                "showface": "ccw",
+                "vs": "sence01pubu",
+                "fs": "sence01pubu"
+            }
+        ]
+    }
+}

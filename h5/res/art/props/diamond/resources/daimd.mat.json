@@ -1,0 +1,1 @@
+{"shader":"diffuse.shader.json","srcshader":"","mapUniform":{"_MainColor":{"type":3,"value":"(0,0.875862181186676,1,1)"},"_MainTex":{"type":0,"value":"gem-texture.imgdesc.json"},"_AlphaCut":{"type":1,"value":0.5}}}

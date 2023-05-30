@@ -1,0 +1,1 @@
+{"shader":"diffuse.shader.json","srcshader":"","mapUniform":{"_MainColor":{"type":3,"value":"(1,0,0,1)"},"_MainTex":{"type":0,"value":"grid"},"_MainTex_ST":{"type":3,"value":"(1,1,0,0)"}}}

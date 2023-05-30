@@ -1,0 +1,29 @@
+{
+    "layer": "geometry",
+    "properties": [
+        "u_Exposure('Exposure',Range(0.0,100.0)) = 1.0"
+    ],
+    "passes": {
+        "base": [
+            {
+                "zwrite": "off",
+                "ztest":"on",
+                "showface": "all",
+                "vs": "skybox",
+                "fs": "skybox"
+            }
+        ],
+        "base_fog": [
+            {
+                "zwrite": "off",
+                "ztest":"on",
+                "showface": "all",
+                "vs": "skybox",
+                "fs": "skybox"
+            }
+        ],
+        "shadowgen": [],
+        "bone": [],
+        "shadowuse": []
+    }
+}

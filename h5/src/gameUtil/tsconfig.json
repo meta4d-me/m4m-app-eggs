@@ -1,0 +1,68 @@
+{
+
+  "compilerOptions": {
+    "experimentalDecorators": true,
+
+    "target": "es5",
+
+    "module": "system",
+
+    "outFile": "../../lib/node_modules/@types/gameUtil.js",
+
+    "allowJs": false,
+
+    "checkJs": false,
+
+    "removeComments": false,
+
+    "noEmit": false,
+
+    "noEmitOnError": false,
+
+    "sourceMap": true,
+
+    "strict": false,
+
+    "alwaysStrict": false,
+
+    "noImplicitAny": false,
+
+    "noImplicitThis": false,
+
+    "strictNullChecks": false,
+
+    "strictBindCallApply": false,
+
+    "strictFunctionTypes": false,
+
+    "strictPropertyInitialization": false,
+
+    "noFallthroughCasesInSwitch": false,
+
+    "noImplicitReturns": false,
+
+    "noUnusedLocals": false,
+
+    "noUnusedParameters": false,
+
+    "declaration": true,
+
+    "skipLibCheck": true,
+
+    "allowUnreachableCode": false,
+    
+    "baseUrl":"../../",
+
+    "typeRoots" : ["../../"],
+
+    "types": [
+      "../../lib/node_modules/@types/engine",
+      "../../lib/node_modules/@types/wxEngine"
+  ],
+
+    "lib": [
+      "DOM",
+      "ES2015",
+    ]
+  }
+}

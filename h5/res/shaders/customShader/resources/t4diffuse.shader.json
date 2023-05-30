@@ -1,0 +1,47 @@
+{
+    "layer": "geometry",
+    "properties": [
+        "_Control ('Control (RGBA)', Texture) = 'white' {}",
+		"_Splat0 ('Layer 1', Texture) = 'white' {}",
+		"_Splat1 ('Layer 2', Texture) = 'white' {}",
+		"_Splat2 ('Layer 3', Texture) = 'white' {}",
+        "_Splat3 ('Layer 4', Texture) = 'white' {}",
+
+        "_Splat0_ST('Splat0_ST',Vector) = (1,1,0,0)",
+        "_Splat1_ST('Splat1_ST',Vector) = (1,1,0,0)",
+        "_Splat2_ST('Splat2_ST',Vector) = (1,1,0,0)",
+        "_Splat3_ST('Splat3_ST',Vector) = (1,1,0,0)",
+        "_Control_ST('Control_ST',Vector) = (1,1,0,0)"
+        
+    ],
+    "passes": {
+        "base": [
+            {
+                "showface": "ccw",
+                "vs": "t4diffuse",
+                "fs": "t4diffuse"
+            }
+        ],
+        "base_fog": [
+            {
+                "showface": "ccw",
+                "vs": "t4diffuse",
+                "fs": "t4diffuse"
+            }
+        ],
+        "lightmap": [
+            {
+                "showface": "ccw",
+                "vs": "t4diffuse",
+                "fs": "t4diffuse"
+            }
+        ],
+        "lightmap_fog": [
+            {
+                "showface": "ccw",
+                "vs": "t4diffuse",
+                "fs": "t4diffuse"
+            }
+        ]
+    }
+}
